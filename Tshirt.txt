@@ -1,0 +1,37 @@
+Here’s a summary of the main packages used in your app and what each one does:
+UI & Styling
+@mui/material: Material-UI React components for building modern, responsive UIs.
+@mui/icons-material: Material-UI’s official icon set for React.
+@emotion/react & @emotion/styled: CSS-in-JS libraries used by Material-UI for styling components.
+React & Core
+react: The core React library for building user interfaces.
+react-dom: React’s DOM bindings for rendering components in the browser.
+react-scripts: Scripts and configuration used by Create React App for building, testing, and running your app.
+Forms
+react-hook-form: A performant, flexible library for managing forms and validation in React.
+TypeScript & Types
+typescript: Adds TypeScript support for type-safe JavaScript.
+@types/react, @types/react-dom, @types/node, @types/jest: TypeScript type definitions for React, ReactDOM, Node.js, and Jest.
+Testing
+@testing-library/react: Utilities for testing React components.
+@testing-library/jest-dom: Custom Jest matchers for DOM node assertions.
+@testing-library/user-event: Simulates user interactions for testing.
+@testing-library/dom: Low-level DOM testing utilities.
+Performance
+web-vitals: Measures and reports key web performance metrics.
+In summary:
+Your UI is built with React and Material-UI (MUI), styled with Emotion.
+Forms are managed with react-hook-form.
+TypeScript is used for type safety.
+Testing is handled by the React Testing Library suite.
+Web Vitals is included for performance monitoring.
+Let me know if you want details on any specific package or how to use them!
+
+
+npm install react react-dom
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+npm install react-hook-form
+npm install typescript @types/react @types/react-dom @types/node @types/jest
+npm install @testing-library/react @testing-library/jest-dom @testing-library/user-event @testing-library/dom
+npm install web-vitals
+npm install react-scripts
